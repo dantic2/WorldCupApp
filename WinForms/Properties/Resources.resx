@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Common_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Common_Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Common_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Main_AllPlayers" xml:space="preserve">
+    <value>All players</value>
+  </data>
+  <data name="Main_Favourites" xml:space="preserve">
+    <value>Favourite players</value>
+  </data>
+  <data name="Main_Rankings" xml:space="preserve">
+    <value>Rankings</value>
+  </data>
+  <data name="Main_SelectTeam" xml:space="preserve">
+    <value>Select a team</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Main_Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="Main_Title" xml:space="preserve">
+    <value>World Cup App</value>
+  </data>
+  <data name="Msg_ImageRemoved" xml:space="preserve">
+    <value>Image removed.</value>
+  </data>
+  <data name="Msg_LimitFav" xml:space="preserve">
+    <value>You can select up to 3 favourite players.</value>
+  </data>
+  <data name="Msg_LoadError" xml:space="preserve">
+    <value>Error loading data.</value>
+  </data>
+  <data name="Msg_NoTeam" xml:space="preserve">
+    <value>Select a team first.</value>
+  </data>
+  <data name="Player_Captain" xml:space="preserve">
+    <value>Captain</value>
+  </data>
+  <data name="Player_Defender" xml:space="preserve">
+    <value>Defender</value>
+  </data>
+  <data name="Player_Favourite" xml:space="preserve">
+    <value>Favourite</value>
+  </data>
+  <data name="Player_Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Player_Goalie" xml:space="preserve">
+    <value>Goalie</value>
+  </data>
+  <data name="Player_Midfield" xml:space="preserve">
+    <value>Midfield</value>
+  </data>
+  <data name="Settings_Championship" xml:space="preserve">
+    <value>Championship</value>
+  </data>
+  <data name="Settings_En" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Settings_Hr" xml:space="preserve">
+    <value>Croatian</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Settings_Men" xml:space="preserve">
+    <value>Men</value>
+  </data>
+  <data name="Settings_SaveRestart" xml:space="preserve">
+    <value>Changes will apply after restart</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings_WindowMode" xml:space="preserve">
+    <value>Window mode</value>
+  </data>
+  <data name="Settings_Women" xml:space="preserve">
+    <value>Women</value>
+  </data>
+  <data name="Msg_ImageChoose" xml:space="preserve">
+    <value>Choose image</value>
+  </data>
+  <data name="Ctx_ChooseImage" xml:space="preserve">
+    <value>Choose image...</value>
+  </data>
+  <data name="Ctx_RemoveImage" xml:space="preserve">
+    <value>Remove image</value>
+  </data>
+  <data name="Rankings_Title" xml:space="preserve">
+    <value>Rankings</value>
+  </data>
+  <data name="Rankings_Goals" xml:space="preserve">
+    <value>Goals</value>
+  </data>
+  <data name="Rankings_YellowCards" xml:space="preserve">
+    <value>Yellow cards</value>
+  </data>
+  <data name="Rankings_Attendance" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="Rankings_ExportPdf" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="Match_Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="Match_Opponent" xml:space="preserve">
+    <value>Opponent</value>
+  </data>
+  <data name="Match_Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Match_StartingEleven" xml:space="preserve">
+    <value>Starting eleven</value>
+  </data>
+  <data name="Match_SelectedTeam" xml:space="preserve">
+    <value>Selected team</value>
+  </data>
+  <data name="Match_OpponentTeam" xml:space="preserve">
+    <value>Opponent</value>
+  </data>
+  <data name="PlayerDetails_Title" xml:space="preserve">
+    <value>Player details</value>
+  </data>
+  <data name="PlayerDetails_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="PlayerDetails_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PlayerDetails_Goals" xml:space="preserve">
+    <value>Goals</value>
+  </data>
+  <data name="PlayerDetails_YellowCards" xml:space="preserve">
+    <value>Yellow cards</value>
+  </data>
+  <data name="PlayerDetails_Captain" xml:space="preserve">
+    <value>Captain</value>
+  </data>
+  <data name="Msg_LoadTeamsError" xml:space="preserve">
+    <value>Error loading teams: {0}</value>
+  </data>
+  <data name="Msg_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Msg_SelectTeamFirst" xml:space="preserve">
+    <value>Select a team first.</value>
+  </data>
+  <data name="Rankings_LoadFailed_Title" xml:space="preserve">
+    <value>Rankings load failed</value>
+  </data>
+  <data name="Rankings_LoadFailed_Message" xml:space="preserve">
+    <value>Failed to load rankings: {0}</value>
+  </data>
+  <data name="Pdf_Filter" xml:space="preserve">
+    <value>PDF files (*.pdf)|*.pdf</value>
+  </data>
+  <data name="Pdf_DefaultFileName" xml:space="preserve">
+    <value>Rankings_{0}.pdf</value>
+  </data>
+  <data name="Pdf_Title" xml:space="preserve">
+    <value>Rankings - {0} - {1}</value>
+  </data>
+  <data name="Pdf_Exported_Message" xml:space="preserve">
+    <value>PDF exported.</value>
+  </data>
+  <data name="Pdf_Exported_Title" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Pdf_ExportFailed_Title" xml:space="preserve">
+    <value>PDF export failed</value>
+  </data>
+  <data name="Pdf_ExportFailed_Message" xml:space="preserve">
+    <value>Failed to export PDF: {0}</value>
+  </data>
+  <data name="Col_Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="Col_Goals" xml:space="preserve">
+    <value>Goals</value>
+  </data>
+  <data name="Col_YellowCards" xml:space="preserve">
+    <value>Yellow Cards</value>
+  </data>
+  <data name="Col_Attendance" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="Col_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Col_Away" xml:space="preserve">
+    <value>Away</value>
+  </data>
+  <data name="Col_Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Col_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Menu_AddToFavourites" xml:space="preserve">
+    <value>Add to favourites</value>
+  </data>
+  <data name="Menu_RemoveFromFavourites" xml:space="preserve">
+    <value>Remove from favourites</value>
+  </data>
+  <data name="Msg_ConfirmSettingsChange" xml:space="preserve">
+    <value>Do you want to apply these settings?</value>
+  </data>
+  <data name="Msg_ConfirmTitle" xml:space="preserve">
+    <value>Confim</value>
+  </data>
+  <data name="Msg_ConfirmExitTitle" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Msg_ConfirmExitText" xml:space="preserve">
+    <value>Do you really want to exit the application?</value>
+  </data>
+  <data name="Common_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+</root>

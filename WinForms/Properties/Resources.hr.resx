@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="Common_Error" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="Common_Info" xml:space="preserve">
+    <value>Informacija</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Common_Ok" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+  <data name="Common_Warning" xml:space="preserve">
+    <value>Upozorenje</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="Main_AllPlayers" xml:space="preserve">
+    <value>Svi igrači</value>
+  </data>
+  <data name="Main_Favourites" xml:space="preserve">
+    <value>Omiljeni igrači</value>
+  </data>
+  <data name="Main_Rankings" xml:space="preserve">
+    <value>Rang liste</value>
+  </data>
+  <data name="Main_SelectTeam" xml:space="preserve">
+    <value>Odaberite reprezentaciju</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="Main_Team" xml:space="preserve">
+    <value>Reprezentacija</value>
+  </data>
+  <data name="Main_Title" xml:space="preserve">
+    <value>Svjetsko prvenstvo</value>
+  </data>
+  <data name="Msg_ImageRemoved" xml:space="preserve">
+    <value>Slika uklonjena.</value>
+  </data>
+  <data name="Msg_LimitFav" xml:space="preserve">
+    <value>Možete odabrati najviše 3 omiljena igrača.</value>
+  </data>
+  <data name="Msg_LoadError" xml:space="preserve">
+    <value>Greška pri učitavanju podataka.</value>
+  </data>
+  <data name="Msg_NoTeam" xml:space="preserve">
+    <value>Najprije odaberite reprezentaciju.</value>
+  </data>
+  <data name="Player_Captain" xml:space="preserve">
+    <value>Kapetan</value>
+  </data>
+  <data name="Player_Defender" xml:space="preserve">
+    <value>Branič</value>
+  </data>
+  <data name="Player_Favourite" xml:space="preserve">
+    <value>Omiljeni</value>
+  </data>
+  <data name="Player_Forward" xml:space="preserve">
+    <value>Napadač</value>
+  </data>
+  <data name="Player_Goalie" xml:space="preserve">
+    <value>Golman</value>
+  </data>
+  <data name="Player_Midfield" xml:space="preserve">
+    <value>Vezni</value>
+  </data>
+  <data name="Settings_Championship" xml:space="preserve">
+    <value>Prvenstvo</value>
+  </data>
+  <data name="Settings_En" xml:space="preserve">
+    <value>Engleski</value>
+  </data>
+  <data name="Settings_Hr" xml:space="preserve">
+    <value>Hrvatski</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="Settings_Men" xml:space="preserve">
+    <value>Muško</value>
+  </data>
+  <data name="Settings_SaveRestart" xml:space="preserve">
+    <value>Promjene će se primijeniti nakon ponovnog pokretanja</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="Settings_WindowMode" xml:space="preserve">
+    <value>Način prikaza</value>
+  </data>
+  <data name="Settings_Women" xml:space="preserve">
+    <value>Žensko</value>
+  </data>
+  <data name="Msg_ImageChoose" xml:space="preserve">
+    <value>Odaberi sliku</value>
+  </data>
+  <data name="Ctx_ChooseImage" xml:space="preserve">
+    <value>Odaberi sliku...</value>
+  </data>
+  <data name="Ctx_RemoveImage" xml:space="preserve">
+    <value>Ukloni sliku</value>
+  </data>
+  <data name="Rankings_Title" xml:space="preserve">
+    <value>Rang liste</value>
+  </data>
+  <data name="Rankings_Goals" xml:space="preserve">
+    <value>Golovi</value>
+  </data>
+  <data name="Rankings_YellowCards" xml:space="preserve">
+    <value>Žuti kartoni</value>
+  </data>
+  <data name="Rankings_Attendance" xml:space="preserve">
+    <value>Posjećenost</value>
+  </data>
+  <data name="Rankings_ExportPdf" xml:space="preserve">
+    <value>Izvoz u PDF</value>
+  </data>
+  <data name="Match_Team" xml:space="preserve">
+    <value>Reprezentacija</value>
+  </data>
+  <data name="Match_Opponent" xml:space="preserve">
+    <value>Protivnik</value>
+  </data>
+  <data name="Match_Score" xml:space="preserve">
+    <value>Rezultat</value>
+  </data>
+  <data name="Match_StartingEleven" xml:space="preserve">
+    <value>Početna postava</value>
+  </data>
+  <data name="Match_SelectedTeam" xml:space="preserve">
+    <value>Odabrana reprezentacija</value>
+  </data>
+  <data name="Match_OpponentTeam" xml:space="preserve">
+    <value>Protivnik</value>
+  </data>
+  <data name="PlayerDetails_Title" xml:space="preserve">
+    <value>Podaci o igraču</value>
+  </data>
+  <data name="PlayerDetails_Number" xml:space="preserve">
+    <value>Broj</value>
+  </data>
+  <data name="PlayerDetails_Position" xml:space="preserve">
+    <value>Pozicija</value>
+  </data>
+  <data name="PlayerDetails_Goals" xml:space="preserve">
+    <value>Golovi</value>
+  </data>
+  <data name="PlayerDetails_YellowCards" xml:space="preserve">
+    <value>Žuti kartoni</value>
+  </data>
+  <data name="PlayerDetails_Captain" xml:space="preserve">
+    <value>Kapetan</value>
+  </data>
+  <data name="Msg_LoadTeamsError" xml:space="preserve">
+    <value>Greška pri učitavanju reprezentacija: {0}</value>
+  </data>
+  <data name="Msg_Error" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="Msg_SelectTeamFirst" xml:space="preserve">
+    <value>Najprije odaberite reprezentaciju.</value>
+  </data>
+  <data name="Rankings_LoadFailed_Title" xml:space="preserve">
+    <value>Učitavanje rang lista nije uspjelo</value>
+  </data>
+  <data name="Rankings_LoadFailed_Message" xml:space="preserve">
+    <value>Ne mogu učitati rang liste: {0}</value>
+  </data>
+  <data name="Pdf_Filter" xml:space="preserve">
+    <value>PDF datoteke (*.pdf)|*.pdf</value>
+  </data>
+  <data name="Pdf_DefaultFileName" xml:space="preserve">
+    <value>RangListe_{0}.pdf</value>
+  </data>
+  <data name="Pdf_Title" xml:space="preserve">
+    <value>Rang liste - {0} - {1}</value>
+  </data>
+  <data name="Pdf_Exported_Message" xml:space="preserve">
+    <value>PDF je izvezen.</value>
+  </data>
+  <data name="Pdf_Exported_Title" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Pdf_ExportFailed_Title" xml:space="preserve">
+    <value>Izvoz PDF-a nije uspio</value>
+  </data>
+  <data name="Pdf_ExportFailed_Message" xml:space="preserve">
+    <value>Ne mogu izvesti PDF: {0}</value>
+  </data>
+  <data name="Col_Player" xml:space="preserve">
+    <value>Igrač</value>
+  </data>
+  <data name="Col_Goals" xml:space="preserve">
+    <value>Golovi</value>
+  </data>
+  <data name="Col_YellowCards" xml:space="preserve">
+    <value>Žuti kartoni</value>
+  </data>
+  <data name="Col_Attendance" xml:space="preserve">
+    <value>Posjećenost</value>
+  </data>
+  <data name="Col_Home" xml:space="preserve">
+    <value>Domaćin</value>
+  </data>
+  <data name="Col_Away" xml:space="preserve">
+    <value>Gost</value>
+  </data>
+  <data name="Col_Score" xml:space="preserve">
+    <value>Rezultat</value>
+  </data>
+  <data name="Col_Location" xml:space="preserve">
+    <value>Lokacija</value>
+  </data>
+  <data name="Menu_AddToFavourites" xml:space="preserve">
+    <value>Dodaj u omiljene</value>
+  </data>
+  <data name="Menu_RemoveFromFavourites" xml:space="preserve">
+    <value>Makni iz omiljenih</value>
+  </data>
+  <data name="Msg_ConfirmSettingsChange" xml:space="preserve">
+    <value>Želite li primijeniti ove postavke?</value>
+  </data>
+  <data name="Msg_ConfirmTitle" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+  <data name="Msg_ConfirmExitTitle" xml:space="preserve">
+    <value>Izlaz</value>
+  </data>
+  <data name="Msg_ConfirmExitText" xml:space="preserve">
+    <value>Želite li stvarno zatvoriti aplikaciju?</value>
+  </data>
+  <data name="Common_Confirm" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+</root>

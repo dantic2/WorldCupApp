@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPF.TeamInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:p="clr-namespace:WPF.Properties"
+        Title="{x:Static p:Resources.TeamInfo_Title}"
+        Height="260" Width="420"
+        WindowStartupLocation="CenterOwner"
+        Opacity="0">
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="txtTitle" FontSize="18" FontWeight="Bold" Grid.Row="0" Margin="0,0,0,10"/>
+
+        <TextBlock x:Name="txtPlayed" Grid.Row="1" Margin="0,2"/>
+        <TextBlock x:Name="txtWdl" Grid.Row="2" Margin="0,2"/>
+        <TextBlock x:Name="txtGoals" Grid.Row="3" Margin="0,2"/>
+        <TextBlock x:Name="txtDiff" Grid.Row="4" Margin="0,2"/>
+    </Grid>
+</Window>
